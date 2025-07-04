@@ -11,7 +11,7 @@ Obtained the following results:
 
 Classifiers:  LogisticRegression has a score of 78.0 % accuracy.
 
-Classification Report: 
+    Classification Report: 
 
                precision    recall  f1-score   support
 
@@ -29,7 +29,7 @@ Classification Report:
 
 Classifiers:  KNeighborsClassifier has a score of 89.0 % accuracy.
 
-Classification Report: 
+    Classification Report: 
 
                precision    recall  f1-score   support
 
@@ -47,7 +47,7 @@ Classification Report:
 
 Classifiers:  RandomForestClassifier has a score of 96.0 % accuracy.
 
-Classification Report: 
+    Classification Report: 
 
                precision    recall  f1-score   support
 
@@ -65,7 +65,7 @@ Classification Report:
 
 Classifiers:  XGBClassifier has a score of 100.0 % accuracy.
 
-Classification Report: 
+    Classification Report: 
 
                precision    recall  f1-score   support
 
@@ -83,7 +83,7 @@ Classification Report:
 
 Classifiers:  CatBoostClassifier has a score of 100.0 % accuracy.
 
-Classification Report: 
+    Classification Report: 
 
                precision    recall  f1-score   support
 

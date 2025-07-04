@@ -1,6 +1,10 @@
-Predicting Hotel Booking Cancellation using the Hotel Booking Demand dataset (https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand).
+# Predicting Hotel Booking Cancellation using the Hotel Booking Demand dataset 
 
-Used scikit-learn's machine learning models for prediction. Logistic Regression, KNN, Random Forest, XGBoost and CatBoost were run.
+## Dataset Link: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
+
+## Kaggle Notebook: https://www.kaggle.com/code/shasan7/hotel-booking-cancellation
+
+Used scikit-learn's machine learning models for prediction. Logistic Regression, KNN, Random Forest, XGBoost and CatBoost were run. The **XGBoost Classifier attained almost 100% accuracy**, the **CatBoost also attained nearly 100%** score. the **XGBoost was ahead in terms of recall score for the minority class than CatBoost** Classifier. We trained it with **100 estimators** using the **"logloss" evaluation metric**, and **"balanced" value was passed to the class_weights** parameter to **provide attention to the minority class, which is crucial for a dataset like ours with huge class imbalance**.
 
 
 Obtained the following results:
